@@ -1,0 +1,265 @@
+/**
+ * @package MU Contrast Mpdule for Joomla! 3.x
+ * @version $Id: mod_mu_contrast.php 2015-02-18 samsuresh $
+ * @author Sam Suresh http://www.mu.my
+ * @copyright (C) 2015- 2015 MU DOT MY PLT- All rights reserved.
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
+ 
+@media screen 
+{
+	
+	body.high 
+	{ color : #000; font-size : 90%; }
+
+	body.high #content-sub dd, body.high #content-sub dd.selected
+	{ border-width:5px; }
+
+	body.high #content-sub dd.selected
+	{ border-color:#666; }
+
+	body.high #content-sub.radio fieldset, body.high #content-sub.radio legend 
+	{ border-color:#666; }
+
+	body.highvisibility .title-link
+	{ color: #fff333; }
+	
+	body.highvisibility .title-link:hover
+	{ color: #fff333; text-decoration: underline; }
+
+	body.highvisibility, body.highvisibility .container, body.highvisibility .module-body, body.highvisibility .yt-main, body.highvisibility .component-inner, 
+	body.highvisibility .modcontent, body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-wrap .tabs-container ul.tabs li .tab
+	{ background : #000; color : #fff; font-size : 100%; }
+	
+	body.highvisibility ul.jb_free_dropdown a, ul.jb_free_dropdown span
+	{ background : #181919; color : #fff333; }
+	
+	body.highvisibility ul.jb_free_dropdown li.parent a:hover
+	{ background : #181919; text-decoration : underline; }
+	
+	body.highvisibility .sj-ajax-tabs .tabs-content, body.highvisibility .item-title, body.highvisibility .item-description, 
+	body.highvisibility #yt_spotlight5, 
+	body.highvisibility .footer-ferramenta, body.highvisibility #yt_header.block
+	{ background : #000; }
+	
+	body.highvisibility #yt_footer div.yt-main, body.highvisibility #yt_footer #yt_copyrightposition
+	{ background : #181919 }
+	
+	body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-wrap/*cinza claro*/
+	{ background : #6C6F6D }
+	
+	body.highvisibility #yt_menuposition ul.navi ul.level2 ul.level3 li .item-link,
+	body.highvisibility div._menu .modcontent ul.menu li > a, div._menu .modcontent ul.menu li > .separator
+	{ color : #fff333;}
+	
+	body.highvisibility div._menu .modcontent ul.menu li > a, div._menu .modcontent ul.menu li > .separator
+	{ background : #000; }
+	
+	body.highvisibility #yt_menuposition ul.navi li.level1.active .item-link
+	{ color : #fff333; }
+	
+	body.highvisibility #yt_menuposition ul.navi li.level1.active > .item-link
+	{ background: #181919; }
+	
+	body.highvisibility #yt_menuposition ul.navi li.level1:hover > .item-link,
+	body.highvisibility #yt_menuposition ul.navi li.level1.hover > .item-link
+	{ text-decoration : underline; }
+	
+	body.highvisibility .modtitle
+	{ color : #C00; }
+	
+	body.highvisibility div.bgcolor div.modcontent/*cinza escuro*/
+	{ background : #181919 }
+	
+	body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-content/*borda cinza claro*/
+	{ border-color : #C4C7C4 }
+	
+	body.highvisibility #yt_menuposition ul.navi ul.level2 li:hover .level2, body.highvisibility #yt_menuposition ul.navi ul.level2 li.hover .level2, body.highvisibility #yt_menuposition ul.navi ul.level2 li.active .level2,
+	body.highvisibility #yt_menuposition ul.navi ul.level3 li:hover .level3, body.highvisibility #yt_menuposition ul.navi ul.level3 li.hover .level3, body.highvisibility #yt_menuposition ul.navi ul.level3 li.active .level3/*hover amarelo e fonte preta*/
+	{ text-decoration : underline; }
+	
+	body.highvisibility div.slideshow.theme2 .sl-control ul.pag-list li.sel,
+	body.highvisibility #yt_menuposition ul.navi li.level1:hover > .item-link, body.highvisibility #yt_menuposition ul.navi li.level1.hover > .item-link /*hover do menu amarelo e fonte preta*/
+	{ background : #fff333; color : #000; }
+	
+	body.highvisibility div.slideshow.theme2 .sl-control ul.pag-list li.pag-item:hover
+	{ background : #fff333; color : #000; }
+	
+	body.highvisibility #yt_menuposition ul.navi ul.level2 li:hover
+	{ text-decoration : underline; }
+	
+	body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-wrap .tabs-container ul.tabs li .tab:hover, body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-wrap .tabs-container ul.tabs li.selected .tab
+	{ background : #fff333; color : #000; }
+	
+	body.highvisibility #yt_menuposition ul.navi ul.level2, body.highvisibility #yt_menuposition ul.navi ul.level3, body.highvisibility #yt_menuposition ul.navi ul.level2 li .item-link /*Submenus*/
+	{ color : #fff333; background: #000; border-bottom: 5px solid #fff; border-top: 5px solid #fff; }
+	
+	body.highvisibility div.border2 h3.modtitle /*Submenus nos artigos*/
+	{ background : #181919; }
+	
+	body.highvisibility #yt_menuposition/*Faixa cinza no menu principal*/
+	{ background : #181919; }
+	
+	body.highvisibility #yt_wrapper
+	{ background : #000; }
+	
+	body.highvisibility #yt_spotlight5 div.module div.modcontent
+	{ min-height: 273px; }
+	
+	body.highvisibility .slideshow .sl-item .sl-item-image img
+	{ width: 645px; }
+	
+	body.highvisibility #position-0 .span5 offset4, p a
+	{ color: #fff333; }
+	
+	body.highvisibility .ajax-tabs .sj-ajax-tabs .tabs-content .items-container .item .item-wrap .item-wrap-inner
+	{ background: #000; }
+	
+	body.highvisibility div._menu.border2 div.modcontent
+	{ background: #000; }
+	
+	body.highvisibility div.yt-accordion .sj-accordion .acd-items .acd-item .acd-header:hover
+	{ color: #000; }
+	
+	body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-content .items-container .item .item-wrap .item-wrap-inner .item-readmore a
+	{ background: #000; }
+	
+	body.highvisibility div.ajax-tabs .sj-ajax-tabs .tabs-content .items-container .item .item-wrap .item-wrap-inner .item-readmore a:hover
+	{ text-decoration: underline; }
+        
+        /*body.highvisibility .article-text, body.highvisibility .items-more
+	{ background : #000; }*/
+        body.highvisibility .blog .list-item
+	{ background : #000; }
+        
+        body.highvisibility .pagination a, body.highvisibility .pagination span
+        { background-color: #000; }
+        
+        body.highvisibility .pagination ul.pagination li a span,body.highvisibility .pagination ul.pagination li span span
+	{ color: #fff; }
+        
+        body.highvisibility .blog .items-leading .item div.item-readmore .readmore
+        { color: #000; }
+
+	body.highvisibility .heading-category span
+	{ color: #fff; }
+
+	body.highvisibility .western td
+	{ color: #fff; }
+
+	body.highvisibility .western strong
+	{ color: #fff; }
+
+	body.highvisibility .western span
+	{ color: #fff; }
+
+	body.highvisibility .item-page strong
+	{ color: #fff; }
+
+	body.highvisibility .item-page span
+	{ color: #fff; }
+
+	body.highvisibility div.breadcrumbs div.modcontent ul.breadcrumb li .last
+        		{ font-family: arial,sans-serif; font-weight: lighter;}
+	
+        
+/*	Joomla*/
+	body.highvisibility .container, body.highvisibility .module-body, body.highvisibility .btn, body.highvisibility #aside, body.highvisibility #content, body.highvisibility #wrapper, body.highvisibility .well, body.highvisibility .form-search input, body.highvisibility .form-search textarea, body.highvisibility select,
+	body.highvisibility .accordion-inner
+	{ background : #000; color : #fff; font-size : 100%; }
+/*	Rockettheme Support*/
+	body.highvisibility #rt-mainbody, body.highvisibility .rt-block, body.highvisibility .menu-block, body.highvisibility .component-content
+	{ background : #000; color : #fff; font-size : 100%; }
+/*	Others*/
+	body.highvisibility h1, body.highvisibility h2, body.highvisibility .container  
+	{ color : #fff; }
+
+	body.highvisibility a:link, body.highvisibility a:visited 
+	{ color : #fff333; }
+
+	body.highvisibility #container 
+	{ width : 90%; }
+
+	body.highvisibility #content-main 
+	{ width : 70%; }
+
+	body.highvisibility #content-sub 
+	{ width : 25%; }
+
+	body.highvisibility #content-sub dd, body.highvisibility #content-sub dd.selected
+	{ border-color:#ff0; border-width:7px; }
+
+	body.highvisibility #content-sub.radio fieldset, body.highvisibility #content-sub.radio legend 
+	{ border-color:#ff0; }
+	select{
+		width: 225px;
+		height: 23px;
+	}
+
+}
+
+
+@media print 
+{
+
+	img { display:none; }
+
+	body
+	{ font : 100% "Lucida Sans Unicode", Verdana, Arial, sans-serif; }
+
+	body.small-sans
+	{ font : 80% Arial, sans-serif; }
+
+	body.small-sans h2.subheading  
+	{ font : 100% Arial, sans-serif; }
+
+	body.small-sans #container 
+	{ width : 90%; }
+
+	body.small-sans #content-main 
+	{ width : 100%; }
+
+	body.small-sans #content-sub 
+	{ display : none; }
+
+	body.large-serif, body.large-serif h1, body.large-serif h2
+	{ font : 120% "Times New Roman", Times, serif; }
+
+	body.large-serif h2.subheading
+	{ font-size : 90%; }
+
+	body.large-serif #container 
+	{ width : 90%; }
+
+	body.large-serif #content-main 
+	{ width : 100%; }
+
+	body.large-serif #content-sub 
+	{ display : none; }
+
+}
+	
+@media projection 
+{
+
+	body.fluid #container 
+	{ width : 90%; }
+
+	body.fluid #content-main 
+	{ width : 70%; }
+
+	body.fluid #content-sub 
+	{ width : 25%; }
+
+}
+
+
+@media screen, aural 
+{
+
+	body { voice-family:young male; }
+	body.female { voice-family:young female; }
+	body.child { voice-family:child female; }
+
+}
+
