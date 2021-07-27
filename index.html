@@ -2657,7 +2657,7 @@ div[vw] {
 	    </div>
 	</div>
     
-			<!--</div>-->7
+			<!--</div>-->
 		</div>
 		                </div>
               </div>
@@ -2707,59 +2707,98 @@ div[vw] {
           <style>
             #title{
               padding: 10px 10px;
-              background-color: #e6e4e4;
+              background: #f1f1f1;
               font-weight: bold;
               color: #034811;
               margin-bottom: 3px;
             }
-            h1{
-              font-size: 17pt;
+            #title > h1{
+              font-size: 15pt;
               text-align: center;
+            }
+            .img-ambiente h2{
+              font-size: 17pt;
+              text-align: left;
+              margin-left: 10px;
             }
             .center-banner{
               padding: 30px 0;
               display: flex; justify-content: space-around; flex-wrap: wrap;
-              border-top: 1px solid green;
-              border-bottom: 1px solid green; 
+              border-top: 2px solid green;
+              border-bottom: 2px solid green; 
             }
             .img-ambiente{
               display: flex;
               align-items: flex-end; 
               text-align: center;
               width: 260px;
-               height:100%;
+              height:100%;
                min-width: 260px;
                min-height: 154px;   
-               margin: 5px;
+               margin: 5px 0;
             }
-            .img-ambiente a{
+            .center-banner a{
+              width: 260px;
+              height:100%;
+               min-width: 260px;
+               min-height: 154px;   
+              height: 100%;
               color: white;
               text-decoration: none;
               text-align: left;
             }
             #presencial{
-              background-image: url("images/presencial.png");
-              background-size: cover;
+              background-image: url("images/presencial\ \(1\).png");
+              background-size: 100% 100%;
             }
             #ead{
-              background-image: url("./images/ead.png");
+              background-image: url("./images/ead-menor.png");
               background-size: cover;
             }
             #capacitacao{
-              background-image: url("images/capacitacao.png");
+              background-image: url("images/capacitacao-menor.png");
               background-size: cover;
             }
             #livres{
-              background-image: url("images/livres.png");
+              background-image: url("images/livres-menor.png");
               background-size: cover;
             }
-            
+            .outros{
+              margin-top:30px;
+              display: flex;
+              justify-content: space-around;
+              flex-wrap: wrap;
+            }
+            .outros a{
+              display: flex;
+              flex-direction: column;
+            }
+            .outros a p{
+              width: 90%;
+              font-size: 10pt;
+              color: black;
+            }
+            .outros a img{
+              width: 260px;
+              height:90px;
+              min-width: 260px;
+             
+            }
             @media (max-width:500px){
              .center-banner{
               justify-content: center; flex-wrap: wrap;
             }
+            .center-banner a{
+              width: 100%;
+            }
             .img-ambiente{
               height: 170px;
+              width: 100%;
+            }
+            .outros a img{
+              width: 100%;
+            }
+            .outros a {
               width: 100%;
             }
             }
@@ -2768,20 +2807,36 @@ div[vw] {
                 <h1>Acesse os novos ambientes de ensino e aprendizagem Oferecidos pelo IFSertãoPE</h1>
               </div>
                <div class="center-banner">
+                <a href="">
                   <div class="img-ambiente" id="presencial">
-                    <a><h2>Ambiente do Aluno Presencial</h2></a>
+                    <h2>Ambiente do Aluno Presencial</h2>
                   </div>
+                </a>
+                <a href=""> 
                   <div id="ead" class="img-ambiente">
-                    <a>  <h2>Ambiente do Aluno EaD</h2>   </a>
+                   <h2>Ambiente do Aluno EaD</h2>  
                   </div>
+                </a>
+                <a href=""> 
                   <div id="capacitacao"class="img-ambiente">
-                    <a>  <h2>Ambiente de Capacitações</h2></a>
+                    <h2>Ambiente de Capacitações</h2>
                   </div>
+                </a>
+                <a href="">
                   <div id="livres" class="img-ambiente">
-                    <a> <h2>Ambiente de Cursos Livres</h2>   </a> 
+                    <h2>Ambiente de Cursos Livres</h2> 
                   </div>
-                 
-                   
+                </a>      
+               </div>
+               <div class="outros">
+                  <a href="">
+                    <img src="images/Fluxos.jpg">
+                    <p>Entenda como funciona os fluxos dos processos da EaD do IFSertãoPE</p>
+                  </a>
+                  <a href="">
+                    <img src="images/bannerSUAP.jpg">
+                    <p>Acesse ao Sistema de gerenciamento de notas e secretaria</p>
+                  </a>
                </div>
 			</div>
             </div>
